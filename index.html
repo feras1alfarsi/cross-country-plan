@@ -1,0 +1,472 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Cross Country-Feras AlFarsi</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+   <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Tajawal:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+  <style>
+       
+
+        body.dark-mode 
+        {
+            background-color: #000000;
+            color: wheat;
+        }
+
+        /* #toggleTheme
+        {
+          margin-top: -30px;
+        } */
+
+        
+
+        footer, header
+        {
+            text-align: center;
+        }
+
+    </style>
+</head>
+<body>
+      <header>تطوير الموقع بواسطة: فراس الفارسي</header>
+     <div class="text-end mb-3">
+     <button id="toggleTheme" class="btn btn-outline-info">
+     <i id="themeIcon" class="bi bi-moon-stars-dark"></i> Dark Mode
+     </button>
+     </div>
+
+<div class="container mt-3">
+  <h2>VFR CROSS-COUNTRY PLANNING GUIDE</h2>
+  
+  <br>
+  <!-- Nav tabs -->
+  <ul class="nav nav-tabs" role="tablist">
+    <li class="nav-item">
+      <a class="nav-link active" data-bs-toggle="tab" href="#home">Step 1</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" data-bs-toggle="tab" href="#menu1">Step 2</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" data-bs-toggle="tab" href="#menu2">Step 3</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" data-bs-toggle="tab" href="#menu3">Step 4</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" data-bs-toggle="tab" href="#menu4">Step 5</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" data-bs-toggle="tab" href="#menu5">Step 6</a>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" data-bs-toggle="tab" href="#menu6">Materials</a>
+    </li>
+    </li>
+    <li class="nav-item">
+      <a class="nav-link" data-bs-toggle="tab" href="#menu7">Contact us</a>
+    </li>
+  </ul>
+
+  <div class="tab-content">
+    <div id="home" class="container tab-pane active"><br>
+      <h3>NECESSARY EQUIPMENT</h3>
+      <p>Gather the following items and make sure charts and publications are current.</p>
+      <div class="form-check">
+      <input type="checkbox" class="form-check-input" id="check1" name="option1" value="something" checked>
+      <label class="form-check-label" for="check1">Sectional Chart(s)</label>
+    </div>
+
+    <div class="form-check">
+      <input type="checkbox" class="form-check-input" id="check2" name="option2" value="something">
+      <label class="form-check-label" for="check2">Terminal Area Chart(s) (if applicable)</label>
+    </div>
+
+    <div class="form-check">
+      <input type="checkbox" class="form-check-input" id="check2" name="option3" value="something">
+      <label class="form-check-label" for="check2">Chart Supplement</label>
+    </div>
+
+    <div class="form-check">
+      <input type="checkbox" class="form-check-input" id="check2" name="option4" value="something">
+      <label class="form-check-label" for="check2">Airport Diagrams</label>
+    </div>
+
+    <div class="form-check">
+      <input type="checkbox" class="form-check-input" id="check2" name="option5" value="something">
+      <label class="form-check-label" for="check2">Airplane Flying Handbook/Pilot Information Manual</label>
+    </div>
+
+    <div class="form-check">
+      <input type="checkbox" class="form-check-input" id="check2" name="option6" value="something">
+      <label class="form-check-label" for="check2">Flight Computer (CX3 or E6B)</label>
+    </div>
+
+    <div class="form-check">
+      <input type="checkbox" class="form-check-input" id="check2" name="option7" value="something">
+      <label class="form-check-label" for="check2">Plotter</label>
+    </div>
+
+    <div class="form-check">
+      <input type="checkbox" class="form-check-input" id="check2" name="option8" value="something">
+      <label class="form-check-label" for="check2">VFR Flight Planner</label>
+    </div>
+    </div>
+    
+    <div id="menu1" class="container tab-pane fade"><br>
+      <h3>WEATHER/NOTAMS BRIEFING</h3>
+      <p>Gather the following data for your possible route of flight to determine whether or not the flight is possible. Use the VFR Flight Planner to record the information.</p>
+    <div class="form-check">
+      <input type="checkbox" class="form-check-input" id="check2" name="option9" value="something">
+      <label class="form-check-label" for="check2">METAR/TAF for departure, destination and major airports along the route</label>
+    </div>
+
+    <div class="form-check">
+      <input type="checkbox" class="form-check-input" id="check2" name="option10" value="something">
+      <label class="form-check-label" for="check2">AIRMET/SIGMET/Convective SIGMET (draw on the map in your Planner)</label>
+    </div>
+
+    <div class="form-check">
+      <input type="checkbox" class="form-check-input" id="check2" name="option11" value="something">
+      <label class="form-check-label" for="check2">Winds Aloft Forecast</label>
+    </div>
+
+    <div class="form-check">
+      <input type="checkbox" class="form-check-input" id="check2" name="option12" value="something">
+      <label class="form-check-label" for="check2">PIREPs</label>
+    </div>
+
+    <div class="form-check">
+      <input type="checkbox" class="form-check-input" id="check2" name="option13" value="something">
+      <label class="form-check-label" for="check2">Prognostic Charts/Aviation Forecast</label>
+    </div>
+
+    <div class="form-check">
+      <input type="checkbox" class="form-check-input" id="check2" name="option14" value="something">
+      <label class="form-check-label" for="check2">NOTAMs for departure, destination, and alternate airport if selected</label>
+    </div>
+
+    <div class="form-check">
+      <input type="checkbox" class="form-check-input" id="check2" name="option15" value="something">
+      <label class="form-check-label" for="check2">TFRs</label>
+    </div>
+
+    <div class="form-check">
+      <input type="checkbox" class="form-check-input" id="check2" name="option16" value="something">
+      <label class="form-check-label" for="check2"> FSS Weather Briefing (outlook and/or standard)</label>
+    </div>
+    </div>
+    
+    <div id="menu2" class="container tab-pane fade"><br>
+      <h3>AIRPORT INFORMATION</h3>
+    <p>In the Chart Supplement, find the departure and destination airports and fill out the following information:</p>
+    <div class="form-check">
+      <input type="checkbox" class="form-check-input" id="check2" name="option17" value="something">
+      <label class="form-check-label" for="check2">Airport ID, Elevation, Traffic Pattern Altitude (TPA).</label>
+    </div>
+
+    <div class="form-check">
+      <input type="checkbox" class="form-check-input" id="check2" name="option18" value="something">
+      <label class="form-check-label" for="check2">Airport Diagram (including runway orientation & dimensions, pattern directions, obstacles)</label>
+    </div>
+
+    <div class="form-check">
+      <input type="checkbox" class="form-check-input" id="check2" name="option19" value="something">
+      <label class="form-check-label" for="check2">Fill out the Airport Frequencies section.</label>
+    </div>
+    </div>
+    
+    <div id="menu3" class="container tab-pane fade"><br>
+      <h3>PLAN AND PLOT THE ROUTE</h3>
+    <p><strong>4.1</strong> Locate the departure and destination airports on the sectional chart. Line the plotter with both airports and determine if a straight-line route is applicable. Consider the following:</p>
+
+    <div class="form-check">
+      <input type="checkbox" class="form-check-input" id="check2" name="option20" value="something">
+      <label class="form-check-label" for="check2">Terrain (start thinking about your altitude)</label>
+    </div>
+
+    <div class="form-check">
+      <input type="checkbox" class="form-check-input" id="check2" name="option21" value="something">
+      <label class="form-check-label" for="check2">Airspace (including special use)</label>
+    </div>
+
+    <div class="form-check">
+      <input type="checkbox" class="form-check-input" id="check2" name="option22" value="something">
+      <label class="form-check-label" for="check2">TFRs</label>
+    </div>
+
+    <div class="form-check">
+      <input type="checkbox" class="form-check-input" id="check2" name="option23" value="something">
+      <label class="form-check-label" for="check2">Availability of checkpoints</label>
+    </div>
+
+    <div class="form-check">
+      <input type="checkbox" class="form-check-input" id="check2" name="option24" value="something">
+      <label class="form-check-label" for="check2">Winds aloft (maximize tailwind)</label>
+    </div>
+
+    <br>
+    <p><strong>4.2</strong> Find an on-course checkpoint within 5 NM of the airport where you will start your cross-country from</p>
+    <p><strong>4.3</strong> Choose the rest of the checkpoints. Points should be 10-15NM apart. Consider the following as good checkpoints (at night, be sure checkpoints are lit):</p>
+    <div class="form-check">
+      <input type="checkbox" class="form-check-input" id="check2" name="option25" value="something">
+      <label class="form-check-label" for="check2">Manmade or natural features</label>
+    </div>
+
+    <div class="form-check">
+      <input type="checkbox" class="form-check-input" id="check2" name="option26" value="something">
+      <label class="form-check-label" for="check2">Roads (major ones, including intersections)</label>
+    </div>
+
+    <div class="form-check">
+      <input type="checkbox" class="form-check-input" id="check2" name="option27" value="something">
+      <label class="form-check-label" for="check2">Rivers</label>
+    </div>
+
+    <div class="form-check">
+      <input type="checkbox" class="form-check-input" id="check2" name="option28" value="something">
+      <label class="form-check-label" for="check2">Railroad tracks</label>
+    </div>
+
+    <div class="form-check">
+      <input type="checkbox" class="form-check-input" id="check2" name="option29" value="something">
+      <label class="form-check-label" for="check2">Powerlines</label>
+    </div>
+
+    <div class="form-check">
+      <input type="checkbox" class="form-check-input" id="check2" name="option30" value="something">
+      <label class="form-check-label" for="check2">Airports</label>
+    </div>
+
+    <br>
+    <p><strong>4.4</strong> Plot the course on the sectional, connecting all the checkpoints. If using a paper sectional, be sure to have a clear route that's easy to see once in the cockpit.</p>
+    <p><strong>4.5</strong> Record the checkpoints on your Flight Planner in the following order</p>
+    
+    <div class="form-check">
+      <input type="checkbox" class="form-check-input" id="check2" name="option31" value="something">
+      <label class="form-check-label" for="check2">Departure Airport</label>
+    </div>
+
+    <div class="form-check">
+      <input type="checkbox" class="form-check-input" id="check2" name="option32" value="something">
+      <label class="form-check-label" for="check2">On-course Checkpoint</label>
+    </div>
+
+    <div class="form-check">
+      <input type="checkbox" class="form-check-input" id="check2" name="option33" value="something">
+      <label class="form-check-label" for="check2">Top of Climb (TOC)</label>
+    </div>
+
+    <div class="form-check">
+      <input type="checkbox" class="form-check-input" id="check2" name="option34" value="something">
+      <label class="form-check-label" for="check2">All checkpoints</label>
+    </div>
+
+    <div class="form-check">
+      <input type="checkbox" class="form-check-input" id="check2" name="option35" value="something">
+      <label class="form-check-label" for="check2">Top of Descent (TOD)</label>
+    </div>
+
+    <div class="form-check">
+      <input type="checkbox" class="form-check-input" id="check2" name="option36" value="something">
+      <label class="form-check-label" for="check2">Bottom of Descent (BOD)</label>
+    </div>
+
+    <div class="form-check">
+      <input type="checkbox" class="form-check-input" id="check2" name="option37" value="something">
+      <label class="form-check-label" for="check2">Destination Airport</label>
+    </div>
+
+    <br>
+    <p><strong>4.6</strong> Choose a cruising altitude and record it in the Flight Planner. Indicate whether or not you will be “Climbing to” or “Descending to” a certain altitude. The goal altitude for BOD should be TPA + 500 ft for uncontrolled airports and TPA for controlled.</p>
+    <p><strong>4.7</strong> Using the plotter, measure the True Course (TC) between each checkpoint and record it in the Flight Planner.</p>
+    <p><strong>4.8</strong> Using the Sectional Chart, find the closest isogonic line and determine the Magnetic Variation. Record it in the Flight Planner and Calculate Magnetic Course. “East is least, West is best”.</p>
+
+    </div>
+
+    <div id="menu4" class="container tab-pane fade"><br>
+      <h3>AIRCRAFT PERFORMANCE</h3>
+    <p><strong>5.1</strong> Using the Time, Fuel, and Distance to Climb Chart in your PIM, calculate the following numbers for your situation and record it in the Climb Data section of your Flight Planner.</p>
+
+    <div class="form-check">
+      <input type="checkbox" class="form-check-input" id="check2" name="option38" value="something">
+      <label class="form-check-label" for="check2">Time to Climb</label>
+    </div>
+
+    <div class="form-check">
+      <input type="checkbox" class="form-check-input" id="check2" name="option39" value="something">
+      <label class="form-check-label" for="check2">Distance to Climb</label>
+    </div>
+
+    <div class="form-check">
+      <input type="checkbox" class="form-check-input" id="check2" name="option40" value="something">
+      <label class="form-check-label" for="check2">Fuel to Climb</label>
+    </div>
+
+    <div class="form-check">
+      <input type="checkbox" class="form-check-input" id="check2" name="option41" value="something">
+      <label class="form-check-label" for="check2">Climb IAS</label>
+    </div>
+
+
+    <div class="form-check">
+      <input type="checkbox" class="form-check-input" id="check2" name="option42" value="something">
+      <label class="form-check-label" for="check2">Convert IAS to CAS (using PIM)</label>
+    </div>
+
+    <div class="form-check">
+      <input type="checkbox" class="form-check-input" id="check2" name="option43" value="something">
+      <label class="form-check-label" for="check2">Based on the Winds Aloft Forecast, calculate Wind Direction/Speed and Temp during Climb out.</label>
+    </div>
+
+    <div class="form-check">
+      <input type="checkbox" class="form-check-input" id="check2" name="option44" value="something">
+      <label class="form-check-label" for="check2">Convert CAS to TAS using Flight Computer.</label>
+    </div>
+
+    <br>
+    <p><strong>5.2</strong> Determine the Cruise Data, using the PIM, by doing the following:</p>
+
+    <div class="form-check">
+      <input type="checkbox" class="form-check-input" id="check2" name="option45" value="something">
+      <label class="form-check-label" for="check2">Based on the Winds Aloft Forecast, enter the Wind Direction/Speed and Temp during cruise.</label>
+    </div>
+
+    <div class="form-check">
+      <input type="checkbox" class="form-check-input" id="check2" name="option46" value="something">
+      <label class="form-check-label" for="check2">By estimating the total distance between departure and destination airport (using the plotter) and by using the RANGE PROFILE chart, determine %POWER appropriate for your flight.</label>
+    </div>
+
+    <div class="form-check">
+      <input type="checkbox" class="form-check-input" id="check2" name="option47" value="something">
+      <label class="form-check-label" for="check2">Using the CRUISE PERFORMANCE chart and %POWER, Pressure Altitude (assume altitude = PA), Temperature; determine RPM, KTAS, and GPH.</label>
+    </div>
+
+    <br>
+    <p><strong>5.3</strong> Determine the Descent Data by doing the following:</p>
+
+    <div class="form-check">
+      <input type="checkbox" class="form-check-input" id="check2" name="option48" value="something">
+      <label class="form-check-label" for="check2">Find the difference between cruising altitude (for the checkpoint before TOD) and the BOD altitude.</label>
+    </div>
+
+    <div class="form-check">
+      <input type="checkbox" class="form-check-input" id="check2" name="option49" value="something">
+      <label class="form-check-label" for="check2">Divide that number by 500 feet per minute (or desired descent rate). This is your Time to Descend. Record it in the Descent Data section of your Flight Planner.</label>
+    </div>
+
+    <div class="form-check">
+      <input type="checkbox" class="form-check-input" id="check2" name="option50" value="something">
+      <label class="form-check-label" for="check2">Determine the wind speed midway through the descent leg and use that along with the TAS to calculate Ground Speed.</label>
+    </div>
+
+    <div class="form-check">
+      <input type="checkbox" class="form-check-input" id="check2" name="option51" value="something">
+      <label class="form-check-label" for="check2">Using the GS, the Time to Descend, and your flight computer, determine Distance to Descend. Record it in the Descent Data section of your Planner.</label>
+    </div>
+    <br>
+    </div>
+
+    <div id="menu5" class="container tab-pane fade"><br>
+      <h3>FLIGHT PLANNER CALCULATIONS</h3>
+    <p><strong>6.1</strong> Using the plotter, measure and record the distances between regular checkpoints and use the Climb and Descent Data for distances to TOC and between TOD and BOD.</p>
+    <p><strong>6.2</strong> Calculate the remaining distance for each leg.</p>
+    <p><strong>6.3</strong> Mark the TOC, TOD, BOD on the Chart.</p>
+    <p><strong>6.4</strong> Fill out the TAS in the main Flight Planner section for each leg.</p>
+    <p><strong>6.5</strong> Fill out the Wind information in the main Flight Planner section for all checkpoints.</p>
+    <p><strong>6.6</strong> For each checkpoint, using True Course, TAS, Wind Information and your Flight Computer (back side), compute the Wind Correction Angle (WCA), Magnetic Heading (MH), and Ground Speed (GS).</p>
+    <p><strong>6.7</strong> With the Flight Computer, using Ground Speed (GS) and Leg Distance, compute the Estimated Time Enroute (ETE) for each leg. Add 10 minutes to the time for the BOD-Destination Airport leg.</p>
+    <p><strong>6.8</strong> With the Flight Computer, using Burn Rate (GPH from the Cruise Data) and Estimated Time Enroute (ETE), compute the Fuel Burnt for each leg.</p>
+
+    <div class="form-check">
+      <input type="checkbox" class="form-check-input" id="check2" name="option52" value="something">
+      <label class="form-check-label" for="check2">Add 1.4 gallons for engine start, taxi, and takeoff.</label>
+    </div>
+
+    <div class="form-check">
+      <input type="checkbox" class="form-check-input" id="check2" name="option53" value="something">
+      <label class="form-check-label" for="check2">Add 2 gallons to fuel for the BOD-Destination Airport leg.</label>
+    </div>
+
+    <p><strong>6.9</strong> Total up all the leg distances, ETEs, and fuel burnt and enter them at the bottom of the Flight Planner main section.</p>
+  </form>
+    </div>
+    <br>
+
+    <div id="menu6" class="container tab-pane fade"><br>
+      
+      <a href="https://mediafiles.aero.und.edu/aero.und.edu/aviation/trainers/e6b/"target="_blank">E6-B Flight Simulator</a>
+      <br>
+      <a href="https://e6bx.com/"target="_blank">E6BX | Online Aviation Calculators</a>
+      <br>
+      <a href="https://online.prepware.com/cx3e/index.html"target="_blank">ASA :: CX-3</a>
+      <br>
+      <a href="https://skyvector.com/" target="_blank">skyvector</a>
+      <br>
+      
+    </div>
+
+    <div id="menu7" class="container tab-pane fade"><br>
+      <p class="F2">Developed By:</p>
+      <p class="F"> Feras AlFarsi/فراس الفارسي</p>
+      <p class="F1">Legal Counsel & CPL, CFI, AGI, and IGI</p>
+      <p class="F3">0560600119</p>
+      <p class="F3">00966560600119</p>
+      <p class="F3">feras1alfarsi@gmail.com</p>
+      <a href="https://www.linkedin.com/in/feras-alfarsi-603515a8/"target="_blank">linkedin</a>
+      <space>  </space>
+      <a href="https://api.whatsapp.com/send/?phone=966560600119&text&type=phone_number&app_absent=0"target="_blank">WhatsApp</a>
+      <space>  </space>
+      <a href="https://www.youtube.com/@Arabic_Aviator/playlists" target="_blank">youtube</a>
+      <space>  </space>
+      <a href="https://t.me/+U6lQmGKbqzMVr3Pv"target="_blank">Telegram</a>
+      <p>.فضلاً،اجعل رسالتك كاملة بسلامها وسؤالها</p>
+      <p>Please, make your message complete with greeting and request.</p>
+      
+    </div>
+</div>
+
+  
+
+    <footer>
+        <p>© 2025 جميع الحقوق محفوظة - فراس الفارسي</p>
+    </footer>
+
+<script>
+
+    function updateThemeIcon()
+     {
+    const themeIcon = document.getElementById("themeIcon");
+    const toggleButton = document.getElementById("toggleTheme");
+
+    if (document.body.classList.contains("dark-mode")) 
+    {
+        themeIcon.className = "bi bi-sun-fill";
+        toggleButton.innerHTML = '<i id="themeIcon" class="bi bi-sun-fill"></i> Light Mode';
+    } 
+    else {
+        themeIcon.className = "bi bi-moon-stars";
+        toggleButton.innerHTML = '<i id="themeIcon" class="bi bi-moon-stars"></i> Dark Mode';
+    }
+    }
+
+
+
+
+    document.getElementById("toggleTheme").addEventListener("click", () => {
+    document.body.classList.toggle("dark-mode");
+    localStorage.setItem("theme", document.body.classList.contains("dark-mode") ? "dark" : "light");
+    updateThemeIcon();
+    });
+
+       
+</script>
+
+</body>
+</html>
